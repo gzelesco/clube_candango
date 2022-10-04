@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary-color: #171a20cc;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+
+a {
+  text-decoration: none
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn {
+  margin: .5rem;
+  padding: .7rem 1.5rem;
+  font-size: .8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: none;
+  background: rgba(255, 255, 255, .1);
+  width: 90%;
+  color: #f6f6f6;
+  cursor: pointer;
+}
+
+.btn-dark {
+  background: rgba(0, 0, 0, .7);
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, .4);
+}
+
+.btn-dark:hover {
+  background: rgba(0, 0, 0, .9);
+}
